@@ -16,7 +16,7 @@ In order to run this code you need to:
 > Go to [Twitch Dev Console](https://dev.twitch.tv/console) and register your application (This is required for pyTwitchAPI).
 
 ## How to use
-Using the python file provided you can see the users chatting, joining, and leaving a specific Twitch channel. You can log this data and use it alongside with pyTwitchAPI to:\
+Using the python file provided you can see the users chatting, joining, and leaving a specific Twitch channel. You need to override the functions provided in irc.py and store these actions in a database. You can use this information with pyTwitchAPI or just calling Twitch API to:\
 1- Check if the user has a history of chatting in that stream.\
 2- Check if the user follows the current Twitch channel or related Twitch channels (Same language, Same game, etc.)\
 3- Check if the user has a history of chatting or watching related channels (By running this on multiple related channels).\
