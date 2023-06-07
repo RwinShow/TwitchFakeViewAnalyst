@@ -20,6 +20,6 @@ Using the python file provided you can see the users chatting, joining, and leav
 1- Check if the user has a history of chatting in that stream.\
 2- Check if the user follows the current Twitch channel or related Twitch channels (Same language, Same game, etc.)\
 3- Check if the user has a history of chatting or watching related channels (By running this on multiple related channels).\
-4- Calculate and check user's watch time in the current Twitch channel or related channels.\
+4- Calculate and check user's watch time in the current Twitch channel or related channels.
 
 By inspecting these activities you can create a "safety score" for each user and consequently for each streamer's broadcast. This safety score can indicate the possibility of fake views for that broadcast.
