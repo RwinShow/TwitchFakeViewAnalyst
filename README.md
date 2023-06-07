@@ -5,7 +5,7 @@ Twitch Fake View Analyst is a **[Python](https://www.python.org/)**-based reposi
 The repository includes a Python file that allows you to monitor the joining and leaving patterns of users in Twitch chat. By collecting and analyzing this data, you can gain insights into user engagement and identify any suspicious or fake view activity.
 
 ## Important note
-Using this program requires basic knowledge of Python. This code was written in a short time and there is a lot of room for improvement. if you find any bugs, don't hesitate to let me know, I currently don't have any plans on further developing this bot but I would fix the bugs.
+Using this program requires basic knowledge of Python. This code was written in a short time and there is a lot of room for improvement. if you find any bugs, don't hesitate to let me know, I currently don't have any plans on further developing this bot but I would fix the bugs. Please keep this in mind: one major flaw of this system is that Twitch does not report membership changes(join and part) for IRC if there are more than 1,000 users.
 
 ## Prerequisite
 In order to run this code you need to:
